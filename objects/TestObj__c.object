@@ -180,6 +180,11 @@
                     <default>false</default>
                     <label>orange</label>
                 </value>
+                <value>
+                    <fullName>banana</fullName>
+                    <default>false</default>
+                    <label>banana</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
