@@ -161,4 +161,9 @@
         <default>false</default>
         <label>Utilities</label>
     </standardValue>
+    <standardValue>
+        <fullName>medicine</fullName>
+        <default>false</default>
+        <label>medicine</label>
+    </standardValue>
 </StandardValueSet>
