@@ -130,6 +130,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>BusinessBrandId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>CaptureContactPointType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -177,14 +182,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartyRoleId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PrivacyConsentStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>All_ContactPointTypeConsents</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Contact Point Type Consents</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Party</customTabListAdditionalFields>
         <customTabListAdditionalFields>ContactPointType</customTabListAdditionalFields>

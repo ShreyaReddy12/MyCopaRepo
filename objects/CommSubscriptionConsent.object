@@ -130,6 +130,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>BusinessBrandId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>CommSubscriptionChannelTypeId</fullName>
         <inlineHelpText>The communication subscription channel type record associated with the communication subscription consent.</inlineHelpText>
         <trackHistory>false</trackHistory>
@@ -176,11 +181,11 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <listViews>
-        <fullName>All_CommSubscriptionConsents</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Communication Subscription Consents</label>
-    </listViews>
+    <fields>
+        <fullName>PartyRoleId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
         <customTabListAdditionalFields>ContactPoint</customTabListAdditionalFields>
